@@ -1,18 +1,18 @@
 import React from "react";
+import { IHeader } from "../../interfaces/IHeader";
 
-const Header = () => {
+
+const Header = (props: any)=> {
+    console.log(props.title);
+    
+    
     return (
-        <div>
-            <div className='fixed z-30 flex flex-col justify-between w-screen lg:px-5 pl-5 pr-5 py-4 bg-creamNude md:fixed max-w-[1440px] shadow'>
-                <div>
-                <img src="../../img/imageCare.ico" alt="icon-care" />
-                </div>
-                <div>
-                    <p className="text-black-/70">Meu Cabeçalho</p>
-                </div>
-            </div>
-        </div>
+        <header title="{title}">
+            <h1>
+                    refletiva
+            </h1>
+        </header>
     )
 }
 
- export default Header;
+export default Header;
