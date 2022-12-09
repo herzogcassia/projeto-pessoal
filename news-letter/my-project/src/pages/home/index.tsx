@@ -5,13 +5,13 @@ import Favicon from '../../components/Seo';
 import { NextPageWithLayout } from '../_app'
 
 
-const Home: NextPageWithLayout = () => {
+const Home: NextPageWithLayout = (props) => {
     return (
         <>
             <Favicon />
-            <Header title="" />
+            <Header title="{title}"/>
             <div>
-                <Layout />
+                {/* <Layout /> */}
             </div>
         </>
     )
