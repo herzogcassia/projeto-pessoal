@@ -14,7 +14,7 @@ const Header = (props: any) => {
                     <img src="../../../ico/imageCare.ico" className="w-10 px-1" />
                 </div>
                 <div className="items-center justify-center">
-                    <h1 className="items-center text-creamNude">
+                    <h1 className="items-center font-bold text-creamNude">
                         refletiva
                     </h1>
                 </div>
