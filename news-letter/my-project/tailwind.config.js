@@ -7,11 +7,11 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#edede9',
-				secundary: '#d6ccc2',
-				creamNude: '#f5ebe0',
-				lightBronw: '#e3d5ca',
-				mediumNude: '#d5bdaf'
+				abacate: '#ccd5ae',
+				taruira: '#e9edc9',
+				creamNude: '#fefae0',
+				lightRose: '#faedcd',
+				terracota: '#d4a373'
 			}
 		},
 	},

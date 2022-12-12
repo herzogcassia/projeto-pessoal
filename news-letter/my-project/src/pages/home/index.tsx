@@ -7,13 +7,11 @@ import { NextPageWithLayout } from '../_app'
 
 const Home: NextPageWithLayout = (props) => {
     return (
-        <>
-            <Favicon />
-            <Header title="{title}"/>
-            <div>
-                {/* <Layout /> */}
-            </div>
-        </>
+        <div>
+                <Favicon />
+                <Header />
+                <Layout />
+        </div>
     )
 }
 
